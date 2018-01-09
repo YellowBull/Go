@@ -16,6 +16,10 @@ cmd 下 `go -http=:8080` 配置本地go官网 <br/>
 Subline3 <br/>
 首选项 --> package control --> package install --> go... <br/>
 
+如果没有package control的话，打开subline按control + \` <br/>
+输入[相关内容](https://packagecontrol.io/installation) <br/>
+然后在操作上面步骤即可 <br/>
+
 重启Subline把项目建在GOROOT下即可编辑 <br/>
 
 control + B 即可在subline中编译 <br/>
