@@ -8,6 +8,8 @@
 配置环境变量 <br/>
 GOROOT <br/>
 你的Go根路径即可 <br/>
+cmd 下 `go env` 查看go环境 <br/>
+cmd 下 `go -http=:8080` 配置本地go官网 <br/>
 
 ### 编辑器
 
