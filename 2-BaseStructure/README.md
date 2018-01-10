@@ -14,3 +14,9 @@
 
 * [Go if语句的基本使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example5.go) <br/>
 描述了使用Go语言编写时的if语句的基本使
+
+* [Go for语句的基本使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example6.go) <br/>
+描述了使用Go语言编写时的for语句的基本使
+
+* [Go switch语句的基本使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example7.go) <br/>
+描述了使用Go语言编写时的switch语句的基本使
