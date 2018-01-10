@@ -23,3 +23,6 @@
 
 * [Go 跳转语句的基本使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example8.go) <br/>
 描述了使用Go语言编写时的跳转语句(break,goto,continue)的基本使
+
+* [Go 数组的定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example9.go) <br/>
+描述了使用Go语言编写时数组的基本定义和使用(冒泡排序、比较是否相等)
