@@ -20,3 +20,6 @@
 
 * [Go switch语句的基本使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example7.go) <br/>
 描述了使用Go语言编写时的switch语句的基本使
+
+* [Go 跳转语句的基本使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example8.go) <br/>
+描述了使用Go语言编写时的跳转语句(break,goto,continue)的基本使
