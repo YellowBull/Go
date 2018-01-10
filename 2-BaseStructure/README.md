@@ -26,3 +26,6 @@
 
 * [Go 数组的定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example9.go) <br/>
 描述了使用Go语言编写时数组的基本定义和使用(冒泡排序、比较是否相等)
+
+* [Go 数组切片(slice)的定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example10.go) <br/>
+描述了使用Go语言编写时数组切片的定义和使用，包括相关的copy,append方法
