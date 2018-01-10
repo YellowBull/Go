@@ -33,7 +33,7 @@ var (
 	name = "xxx"
 )
 
-//一般类型声明
+//一般类型声明 
 type number int
 
 //结构声明
