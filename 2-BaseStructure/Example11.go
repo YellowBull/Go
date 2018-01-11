@@ -106,4 +106,14 @@ func main() {
 	// map[1:allChange 2:allChange 3:allChange 4:allChange]
 	// for循环中根据key值可以改变原本的map的值
 	fmt.Println(myMap)
+
+	/**
+	 * 将map的key ， value对掉
+	 */
+	fmt.Println(myMap) // map[1:allChange 2:allChange 3:allChange 4:allChange]
+	myMap3 := make(map[string]int)
+	for k, v := range myMap {
+		myMap3[v] = k // myMap的值 allChange 作为建 赋值为 myMap的 建
+	}
+	fmt.Println(myMap3) // map[allChange:4] 证实map的键唯一但是值可以被覆盖
 }
