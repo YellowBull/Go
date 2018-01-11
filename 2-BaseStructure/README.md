@@ -30,5 +30,5 @@
 * [Go 数组切片(slice)的定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example10.go) <br/>
 描述了使用Go语言编写时数组切片的定义和使用，包括相关的copy,append方法
 
-* [Go map定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example10.go) <br/>
+* [Go map定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example11.go) <br/>
 描述了使用Go语言编写时map定义和使用
