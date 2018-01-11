@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sort"
 )
 
 func main() {
@@ -49,4 +50,9 @@ func main() {
 		}
 	}
 	fmt.Println(arr8) //[1 2 4 5 6 7 8 9]
+
+	arr8 = []int{4, 5, 2, 6, 1, 9, 7, 8} //重新赋值
+	fmt.Println(arr8)                    //[4 5 2 6 1 9 7 8]
+	sort.Ints(arr8)                      //sort 排序
+	fmt.Println(arr8)                    //[1 2 4 5 6 7 8 9]
 }
