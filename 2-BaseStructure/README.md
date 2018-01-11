@@ -32,3 +32,9 @@
 
 * [Go map定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example11.go) <br/>
 描述了使用Go语言编写时map定义和使用
+
+* [Go 函数的定义和使用](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example12.go) <br/>
+描述了使用Go语言编写时函数的定义和使用
+
+* [Go defer,recover,panic关键字的使用方式](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example13.go) <br/>
+描述了使用Go语言编写时defer,recover,panic关键字的使用方式
