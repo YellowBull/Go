@@ -38,3 +38,6 @@
 
 * [Go defer,recover,panic关键字的使用方式](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example13.go) <br/>
 描述了使用Go语言编写时defer,recover,panic关键字的使用方式
+
+* [Go struct的基本定义、调用、传值](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example14.go) <br/>
+描述了使用Go语言编写时struct的基本定义、调用、传值
