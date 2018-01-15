@@ -44,3 +44,6 @@
 
 * [Go 方法的基本定义、调用、传值](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example15.go) <br/>
 描述了使用Go语言编写时方法的基本定义、调用、传值
+
+* [Go 接口的基本定义、调用、传值](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example16.go) <br/>
+描述了使用Go语言编写时接口的基本定义、调用、传值、类型转换
