@@ -7,6 +7,8 @@ import (
 	//"time"
 )
 
+var msg chan string
+
 func main() {
 
 	/**
@@ -88,23 +90,42 @@ func main() {
 	 * select 产生 0/1 随机数
 	 */
 	//警告：小心尝试，这个随机数我是搞不出来，瞬间99%的CPU占用率
-	random := make(chan int)
-	go func() {
-		for v := range random {
-			fmt.Println(v)
-		}
-	}()
+	// random := make(chan int)
+	// go func() {
+	// 	for v := range random {
+	// 		fmt.Println(v)
+	// 	}
+	// }()
 
-	for {
-		select {
-		case random <- 0:
-		case random <- 1:
-		case <-time.After(2 * time.Second):
-			fmt.Println("TimeOut")
-			break
-		}
+	// for {
+	// 	select {
+	// 	case random <- 0:
+	// 	case random <- 1:
+	// 	case <-time.After(2 * time.Second):
+	// 		fmt.Println("TimeOut")
+	// 		break
+	// 	}
+	// }
+
+	/**
+	 * 主线程和携程信息交互
+	 */
+	msg = make(chan string)
+	go Pingpong()
+	for i := 0; i < 10; i++ {
+		msg <- fmt.Sprintln("Say hello main#", i)
+		fmt.Println(<-msg)
 	}
 
+}
+
+func Pingpong() {
+	i := 0
+	for {
+		fmt.Println(<-msg)
+		msg <- fmt.Sprintln("Say hi Pingpong #", i)
+		i++
+	}
 }
 
 func add(channel chan bool, index int) {
