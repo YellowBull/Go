@@ -47,3 +47,6 @@
 
 * [Go 接口的基本定义、调用、传值](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example16.go) <br/>
 描述了使用Go语言编写时接口的基本定义、调用、传值、类型转换
+
+* [Go 反射的基本定义、调用、传值](https://github.com/YellowBull/Go/blob/master/2-BaseStructure/Example17.go) <br/>
+描述了使用Go语言编写时反射的基本定义、调用、传值、类型转换 (reflect)
