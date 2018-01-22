@@ -14,7 +14,7 @@ cmd 下 `go -http=:8080` 配置本地go官网 <br/>
 ### 编辑器
 
 Subline3 <br/>
-首选项 --> package control --> package install --> go... <br/>
+首选项 --> package control -->install package--> Golang build <br/>
 
 如果没有package control的话，打开subline按control + \` <br/>
 输入[相关内容](https://packagecontrol.io/installation) <br/>
